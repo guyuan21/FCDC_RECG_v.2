@@ -1,0 +1,35 @@
+# 当前项目人脸库模板
+#
+# 推荐方式：不要把本文件作为主数据库传给程序。
+# 板端运行时第三个参数应传 faces 目录，例如：
+#
+#   ./retinaface_facenet_spidev ./model/facedet.rknn ./model/facerecg.rknn ./faces ./model/yolov5n.rknn
+#
+# 目录模式下，程序只扫描 faces/<姓名>_<工号>_<权限>/，并忽略 faces/face_db.txt。
+# 推荐目录结构：
+#
+#   faces/
+#   ├── 何开洪_1001_1/
+#   │   ├── sample_01.jpg
+#   │   ├── sample_02.jpg
+#   │   └── sample_03.jpg
+#   ├── 段宇_1002_1/
+#   │   ├── sample_01.jpg
+#   │   ├── sample_02.jpg
+#   │   └── sample_03.jpg
+#   └── 杨康_1003_1/
+#       ├── sample_01.jpg
+#       ├── sample_02.jpg
+#       └── sample_03.jpg
+#
+# 旧文件模式兼容：
+# 只有当程序第三个参数直接传入本文件时，才会读取下面这种行。
+# 格式：
+#
+#   <name> <employee_id> <permission> <image_or_dir_1> [image_or_dir_2 ...]
+#
+# 如需用旧文件模式，在板端按实际路径取消注释：
+#
+# 何开洪 1001 1 /root/scrfd_mobilefacenet_demo/faces/何开洪_1001_1
+# 段宇   1002 1 /root/scrfd_mobilefacenet_demo/faces/段宇_1002_1
+# 杨康   1003 1 /root/scrfd_mobilefacenet_demo/faces/杨康_1003_1

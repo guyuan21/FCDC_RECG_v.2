@@ -1,0 +1,11 @@
+./pic/mobileface/face1.jpg
+./pic/mobileface/face2.jpg
+./pic/mobileface/face3.jpg
+./pic/mobileface/face4.jpg
+./pic/mobileface/face5.jpg
+./pic/mobileface/face6.jpg
+./pic/mobileface/face7.jpg
+./pic/mobileface/face8.jpg
+./pic/mobileface/face9.jpg
+./pic/mobileface/face10.jpg
+./pic/mobileface/face11.jpg

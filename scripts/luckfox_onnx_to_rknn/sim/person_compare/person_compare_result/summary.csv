@@ -1,0 +1,2 @@
+image,model,count,best_score,infer_ms
+bus.jpg,scrfd_person_2.5g,5,0.842456,1694.604

@@ -1,0 +1,9 @@
+* text=auto
+*.sh text eol=lf
+*.md text eol=lf
+*.rknn binary
+*.onnx binary
+*.a binary
+*.so binary
+*.jpg binary
+*.png binary

@@ -1,0 +1,22 @@
+build/
+install/
+code/tools/as608_test
+faces/
+*.log
+
+*.o
+*.o.d
+
+__pycache__/
+*.py[cod]
+
+.cache/
+.vscode/
+
+# Local tooling and generated runtime data
+.agents/
+.codex
+.clangd
+code/tools/servo_pwm_debug
+.face_feature_cache/
+fingerprint_map.txt
